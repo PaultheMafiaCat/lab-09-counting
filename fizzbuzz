@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+for(var bear = 1; bear <=100; bear = bear + 1)
+
+if (bear % 3 == 0 && bear % 5 ==0){
+console.log("fizzbuzz");
+}
+else if( bear % 3 == 0)
+{
+console.log("fizz")
+}
+else if( bear % 5 == 0)
+{
+console.log("Buzz");
+}
+else
+{
+console.log(bear);
+}
+</script>
+</head>
+</html>
